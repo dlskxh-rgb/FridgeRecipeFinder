@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  background: #f6f7f9;
+
+  color: #333;
+}
+
+
+.container {
+  width: 90%;
+
+  max-width: 800px;
+
+  margin: auto;
+}
+
+
+/* Header */
+
+header {
+
+  background: #4caf50;
+
+  color: white;
+
+  padding: 45px 0;
+
+  text-align: center;
+
+}
+
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 34px;
+
+}
+
+
+header p {
+
+  margin-top: 12px;
+
+  font-size: 16px;
+
+}
+
+
+/* Main */
+
+main {
+
+  padding: 30px 0;
+
+}
+
+
+.card {
+
+  background: white;
+
+  padding: 25px;
+
+  margin-bottom: 25px;
+
+  border-radius: 14px;
+
+  box-shadow:
+    0 4px 12px
+    rgba(0, 0, 0, 0.08);
+
+}
+
+
+.card h2 {
+
+  margin-top: 0;
+
+}
+
+
+.description {
+
+  color: #777;
+
+}
+
+
+/* Input */
+
+.input-group {
+
+  display: flex;
+
+  gap: 10px;
+
+}
+
+
+input {
+
+  flex: 1;
+
+  padding: 12px;
+
+  border:
+
+    1px solid #ddd;
+
+  border-radius: 8px;
+
+  font-size: 15px;
+
+}
+
+
+/* Buttons */
+
+button {
+
+  border: none;
+
+  border-radius: 8px;
+
+  padding: 10px 16px;
+
+  background: #4caf50;
+
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 14px;
+
+}
+
+
+button:hover {
+
+  opacity: 0.85;
+
+}
+
+
+.primary-button {
+
+  width: 100%;
+
+  margin-top: 10px;
+
+  font-size: 16px;
+
+}
+
+
+/* Ingredients */
+
+.ingredient-list {
+
+  margin-top: 20px;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+}
+
+
+.ingredient {
+
+  background: #e8f5e9;
+
+  padding:
+
+    8px 12px;
+
+  border-radius: 20px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+}
+
+
+.remove-btn {
+
+  background: #e57373;
+
+  padding:
+
+    4px 8px;
+
+  font-size: 11px;
+
+}
+
+
+/* Recipes */
+
+.recipe-results {
+
+  margin-top: 20px;
+
+}
+
+
+.recipe-card {
+
+  border:
+
+    1px solid #eee;
+
+  padding: 18px;
+
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+
+}
+
+
+.recipe-card h3 {
+
+  margin-top: 0;
+
+}
+
+
+.recipe-card p {
+
+  color: #666;
+
+}
+
+
+.recipe-info {
+
+  font-size: 14px;
+
+}
+
+
+.match {
+
+  color: #4caf50;
+
+  font-weight: bold;
+
+}
+
+
+.favorite-btn {
+
+  background: #ff9800;
+
+  margin-top: 10px;
+
+}
+
+
+.empty-message {
+
+  text-align: center;
+
+  color: #888;
+
+  padding: 20px;
+
+}
+
+
+/* Footer */
+
+footer {
+
+  text-align: center;
+
+  padding: 30px;
+
+  color: #777;
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .input-group {
+
+    flex-direction: column;
+
+  }
+
+
+  header h1 {
+
+    font-size: 28px;
+
+  }
+
+}
