@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>FridgeRecipeFinder</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+
+      <h1>🥦 FridgeRecipeFinder</h1>
+
+      <p>
+        Find meal ideas based on the ingredients
+        you already have.
+      </p>
+
+    </div>
+  </header>
+
+
+  <main class="container">
+
+    <!-- Ingredient Input -->
+
+    <section class="card">
+
+      <h2>🥕 My Ingredients</h2>
+
+      <p class="description">
+        Add ingredients from your fridge.
+      </p>
+
+
+      <div class="input-group">
+
+        <input
+          type="text"
+          id="ingredientInput"
+          placeholder="Example: egg"
+        >
+
+        <button id="addIngredientBtn">
+          Add
+        </button>
+
+      </div>
+
+
+      <div
+        id="ingredientList"
+        class="ingredient-list"
+      ></div>
+
+    </section>
+
+
+    <!-- Recipe Search -->
+
+    <section class="card">
+
+      <h2>🍳 Recipe Suggestions</h2>
+
+      <p class="description">
+        We'll find recipes that match your ingredients.
+      </p>
+
+
+      <button
+        id="findRecipeBtn"
+        class="primary-button"
+      >
+        Find Recipes
+      </button>
+
+
+      <div
+        id="recipeResults"
+        class="recipe-results"
+      >
+
+        <p class="empty-message">
+          Add ingredients and click
+          "Find Recipes".
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- Favorites -->
+
+    <section class="card">
+
+      <h2>⭐ Favorite Recipes</h2>
+
+      <div
+        id="favoriteList"
+        class="recipe-results"
+      >
+
+        <p class="empty-message">
+          No favorite recipes yet.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <p>
+      Made with ❤️ for home cooks
+    </p>
+
+  </footer>
+
+
+  <script src="recipes.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
